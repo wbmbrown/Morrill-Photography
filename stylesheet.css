@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+nav {
+	text-align:center;
+	padding-top:10px;
+	background-color:#D4FFFF;
+	padding-left:300px;
+}
+
+#sessions {
+	padding-left:150px;
+}
+
+
+
+/*drop down*/
+ul#menu, ul#menu ul.sub-menu {
+    padding:0;
+    margin: 0;
+    margin-bottom:10px;
+    background-color:#D4FFFF;
+}
+
+ul#menu li, ul#menu ul.sub-menu li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right:15px;
+    padding-bottom:10px;
+}
+
+/*Link Appearance*/
+ul#menu li a, ul#menu li ul.sub-menu li a {
+    text-decoration: none;
+    color: #5F584F;
+    background: #D4FFFF;
+    padding: 10px;
+    display:inline-block;
+    font-family:Didot;
+    font-size:115%;
+}
+
+ul#menu li a, ul#menu li ul.sub-menu a:hover { /*changes non hover color of menu also*/
+	color:black;
+}
+
+
+/*Make the parent of sub-menu relative*/
+ul#menu li {
+    position: relative;
+}
+/*sub menu*/
+ul#menu li ul.sub-menu {
+    display:none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 150px;
+}
+
+ul#menu li:hover ul.sub-menu {
+    display:block;
+    opacity:0.7;
+    
+}
+
+/*end drop down*/
+
+#slideshow {
+	text-align:center;
+	padding-bottom:10px;
+}
+
+.bottom {
+	background-color:#988A7D;
+	margin-bottom:0px;
+	height:175px;
+	text-align:center;
+	padding-top:50px;
+	font-size:20px;
+	color:#E0DCD8;
+	font-family:Didot;
+}
+
+footer {
+	position:absolute;
+	bottom:0;
+	top:975px;
+	width:100%;
+	height:80px;
+	padding-top:25px;
+	background-color:#988A7D;
+	text-align:center;
+	font-family:Didot;
+	font-size:18px;
+}
+
+footer #ppalogos {
+	
+}
